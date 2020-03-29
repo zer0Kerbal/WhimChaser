@@ -1,0 +1,50 @@
+https://forum.kerbalspaceprogram.com/index.php?/topic/83101-whimchaser-shuttle-alpha-release-feedback-welcome/&tab=comments#comment-1366046
+
+https://imgur.com/a/8LKSy
+
+Alpha Release - WhimChaser Space Shuttle!
+
+Updated to v 0.5.5 Improved mesh and texture and added the two service modules!
+
+Obviously WhimChaser is inspired by Dream Chaser, but it's also inspired by a couple of half finished projects here on the forum - most notably Pteron .
+
+This is my second attempt at a KSP part(and at Blender in general), so I'm certain there will be bugs in it. I really built it to fill a niche in my gameplay, but given the enthusiasm around Pteron, I thought it might be useful to others, at least until they finish their shuttle.
+
+My idea was to create a craft that could handle rescue missions as well as providing a low-cost crew service vessel for my orbital station. I'm also in the process of designing an educational simulator around KSP that will be used by kids... so I wanted a part that would be fun to fly... and a vertical launch/glider return vessel fit that bill and gives a flight profile similar to Dream Chaser and the Space Shuttle, so it's something familiar and educationally valid.
+
+I ALSO wanted to make it an exercise in efficiency... and this is a part for those times when you want to fly... not build. Towards that end, the single part has, built in,
+
+Electricity,
+
+MonoPropellant,
+
+Liquid Fuel,
+
+Oxidizer,
+
+aerodynamic control surfaces,
+
+6-way RCS Thrusters
+
+and main Engines!
+
+So with a part count of 1, you can throw this thing on the launchpad, hit the space bar, and leave the ground. You won't get far - as the fuel tanks only carry about 525 m/s of delta-V, but it's more than enough to blast off, turn east, and practice gliding to the water.
+
+The idea is to launch and insert the shuttle into orbit on top of a conventional rocket then decouple and use the built-in engines and fuel for orbital maneuvering - shifting orbits, rendezvous(if you planned the launch well!) and de-orbit burn.
+
+As a glider... the lift and drag numbers aren't great... but this is a spaceship first and a glider second. It's designed for water landing (it CAN tumble to a stop on land without killing kerbals... but I wouldn't call that a 'landing' exactly.) Because of the reasonably steep glideslope I haven't successfully landed it with wheeled gear without a lot of bounce and flip... though it might be possible? The engine also has sufficient TWR that you can operate in glider mode down to the last 250m, drop airspeed to 50m/s, and then turn the nose up and engine on and do a powered, vertical landing. It's a bit of a trick, but it can be done.
+
+Keep in mind that this thing DOES generate lift from the body(though not OODLES of it)... so if you throw it on top of a rocket without any other aerodynamic surfaces it will be unstable. Standard winglets at the bottom of the launcher will keep the pointy end towards space. Because it's a single part... when it's by itself the COM and COL are at the same point when it doesn't have anything else attached. If you attach anything to it that shifts the COM aft, you're going to have stability problems unless you also attach winglets back there. I've had no problem throwing a small docking port on the back of the vessel, but trying to just strap an engine or fuel tanks to the back is a recipe for disaster when you're inside the atmosphere. Keep the COM at or in front of the COL and keep SAS on and it flies rather nicely... for a stubby space brick!
+
+Here's a terrible youtube video showing the basics of flying the gizmo! I recorded it on my development machine which is set for low graphics quality to help speed up the thousand reloads required to get a mod working!
+
+Update to .5.
+
+I added two service modules that are designed to work with WhimChaser on longer ranged missions. They add additional LOX, MonoProp, and Batteries and include their own engine, so they can slap on the back of the shuttle. They are NOT designed to remain attached during atmospheric re-entry... they WILL make the shuttle unstable. The service modules also have integrated junior compatible docking ports! The docking ports now fully work!
+
+#### Roadmap to V 1.0
+- Retractable docking port for Shuttle itself.
+- IVA interior
+- Fairing for launch
+- NEAR and FAR integration
+- Solar Panels on Service Modules

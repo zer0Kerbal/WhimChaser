@@ -1,0 +1,18 @@
+@PART[whimchaser]:FOR[FerramAerospaceResearch|NEAR]
+{
+	@module = Part
+	!dragCoeff = DELETE
+	!deflectionLiftCoeff = DELETE
+	@dragModelType = default
+
+MODULE
+{
+		name = FARControllableSurface
+		MAC = 0.7
+		e = 0.67
+		maxdeflect = 15
+		MidChordSweep = 0
+		b_2 = 2.2
+		TaperRatio = 1
+}
+}
