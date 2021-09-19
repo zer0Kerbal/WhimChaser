@@ -162,7 +162,7 @@ See the [README in the Localization folder][LINK:localization] for instructions 
 - [x]  [ScrapYard][thread:SYD]  
 - [x]  [Solar Science (SOLS)][thread:SOLS]  
 - [x]  [KerGuise Experimental Engineering (KGEx)][thread:KGEX]  
-- [x]  [The Gold Standard (GOLD)][thread:TheGoldStandard]  
+- [x]  [The Gold Standard (GOLD)][thread:GOLD]  
 - [x]  [Keridian Dynamics Vessel Assembly (KDVA)][thread:KDVA]
 - [x]  [Olympic's ARP Icons (ARPI)][thread:ARPI]  
 - [x]  [Stack Inline Lights (SIL)][thread:SIL]  
