@@ -43,13 +43,10 @@ Provides a fun to fly efficient  vertical launch/glider return vessel that can h
 > Keep in mind that this thing DOES generate lift from the body(though not OODLES of it)... so if you throw it on top of a rocket without any other aerodynamic surfaces it will be unstable. Standard winglets at the bottom of the launcher will keep the pointy end towards space. Because it's a single part... when it's by itself the COM and COL are at the same point when it doesn't have anything else attached. If you attach anything to it that shifts the COM aft, you're going to have stability problems unless you also attach winglets back there. I've had no problem throwing a small docking port on the back of the vessel, but trying to just strap an engine or fuel tanks to the back is a recipe for disaster when you're inside the atmosphere. Keep the COM at or in front of the COL and keep SAS on and it flies rather nicely... for a stubby space brick!
 > 
 > Here's a terrible youtube video showing the basics of flying the gizmo! I recorded it on my development machine which is set for low graphics quality to help speed up the thousand reloads required to get a mod working!
-
-
-<details>
-  <summary>Embedded artwhaley Youtube Video</summary>
-    <iframe width="1070" height="602" src="https://www.youtube.com/embed/nqosqmBCzF8" title="artwhaley flys the WhimChaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</details>
-
+  
+<details>  <summary>Embedded artwhaley Youtube Video</summary>
+    <iframe width="1070" height="602" src="https://www.youtube.com/embed/nqosqmBCzF8" title="artwhaley flys the WhimChaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></details>
+  
 <!-- [![][UTUBE:img]][UTUBE:link]  -->
 
 ## Features 
@@ -366,9 +363,9 @@ See the [README in the Localization folder][LINK:localization] for instructions 
 [LINK:zer0Kerbal]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-zer0kerbal/ "zer0Kerbal"
 
 <!-- footnotes -->
-  [^1]: ***may*** work on other versions (YMMV)
-  [^2]: *Be Kind: Lithobrake, not jakebrake! Keep your Module Manager up to date!*
-  [^3]: this isn't a mod. ;P
+[^1]: ***may*** work on other versions (YMMV)
+[^2]: *Be Kind: Lithobrake, not jakebrake! Keep your Module Manager up to date!*
+[^3]: this isn't a mod. ;P
 
 <!--- misc logos -->
 [IMG:flg:0]: https://via.placeholder.com/256x160png/ffffff/bada55?text=KGEx "Flag"
