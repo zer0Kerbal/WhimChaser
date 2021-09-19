@@ -115,12 +115,11 @@ See the [README in the Localization folder][LINK:localization] for instructions 
 ### Dependencies  
 
 - [x]  [Kerbal Space Program][KSP:url] [![][KSP:shld]][KSP:url] [^1]  
-- [x] [Module Manager][thread:mm] [^2]  
+- [x]  [Module Manager][thread:mm] [^2]  
 
 ### Recommends  
 
-
-- [x] [Comprehensive Kerbal Archive Network (CKAN)][CKAN:url] [^3]  
+- [x]  [Comprehensive Kerbal Archive Network (CKAN)][CKAN:url] [^3]  
 
 ### Suggests  
 
@@ -168,6 +167,7 @@ See the [README in the Localization folder][LINK:localization] for instructions 
 - [x]  [Stack Inline Lights (SIL)][thread:SIL]  
 - [x]  [Stack Inline Lights - Patches (SILP)][thread:SILP]  
 
+#### Other
 
 - [x]  [Kerbal Changelog][thread:kcl]  
 - [x]  [RemoteTech][thread:rt]  
