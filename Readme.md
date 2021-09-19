@@ -354,11 +354,11 @@ See the [README in the Localization folder][LINK:localization] for instructions 
 [LINK:artwhaley]: https://forum.kerbalspaceprogram.com/index.php?/profile/118388-artwhaley/ "artwhaley"
 [LINK:zer0Kerbal]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-zer0kerbal/ "zer0Kerbal"
 
-<!-- footnotes -->
-[^1]: ***may*** work on other versions (YMMV)
-[^2]: *Be Kind: Lithobrake, not jakebrake! Keep your Module Manager up to date!*
-[^3]: this isn't a mod. ;P
-
+<!-- footnotes -->  
+[^1]: ***may*** work on other versions (YMMV)  
+[^2]: *Be Kind: Lithobrake, not jakebrake! Keep your Module Manager up to date!*  
+[^3]: this isn't a mod. ;P  
+  
 <!--- misc logos -->
 [IMG:flg:0]: https://via.placeholder.com/256x160png/ffffff/bada55?text=KGEx "Flag"
 
