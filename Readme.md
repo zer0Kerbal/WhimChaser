@@ -115,7 +115,7 @@ See the [README in the Localization folder][LINK:localization] for instructions 
 ### Dependencies  
 
 - [x]  [Kerbal Space Program][KSP:url] [![][KSP:shld]][KSP:url] [^1]  
-- [x] [Module Manager][thread:mm] [^2]  in order for patches to work
+- [x] [Module Manager][thread:mm] [^2]  
 
 ### Recommends  
 
