@@ -389,9 +389,11 @@ https://paypal.me/zer0Kerbal?locale.x=en_US -->
 this file: GPLv2
 zer0Kerbal-->
 
-
 <!-- footnotes -->  
+
 [^1]: ***may*** work on other versions (YMMV)  
+
 [^2]: *Be Kind: Lithobrake, not jakebrake! Keep your Module Manager up to date!*  
+
 [^3]: this isn't a mod. ;P
 
