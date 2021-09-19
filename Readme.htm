@@ -1,102 +1,275 @@
-<!-- Readme.md v1.0.2.0
-ScrapYard (SYD)
-created: 01 Oct 19
-updated: 2020 03 16 -->
+<!-- Readme.md v1.5.4.0
+WhimChaser by Axial Aerospace (WHIM)
+created: 01 Oct 2019
+updated: 14 Sep 2021 -->
 
-<!-- # KerbGuise Experimental engineering (KGEx)
-#### Brings you: -->
-
-<!-- Download on SpaceDock or Github or Curseforge. Also available on CKAN. -->
-
-<h1 id="scrapyard-syd">ScrapYard (SYD)</h1>
-<h2 id="the-common-part-inventory">The Common Part Inventory</h2>
-<p><img src="https://img.shields.io/github/v/release/zer0Kerbal/ScrapYard?include_prereleases?style=plastic" alt="Mod Version" /> <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/ScrapYard/master/json/ksp.json" alt="KSP version" /> <img src="https://img.shields.io/badge/KSP-AVC--supported-brightgreen.svg?style=plastic" alt="KSP-AVC" /> <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/ScrapYard/master/json/license.json" alt="License MIT" /> <img src="https://i.postimg.cc/bvjfsMP5/MIT-17x17.png" /><br />
-<img src="https://img.shields.io/badge/SpaceDock-listed-blue.svg?style=plastic" alt="SpaceDock" /> <img src="https://img.shields.io/badge/CKAN-Indexed-blue.svg?style=plastic" alt="CKAN" /> <img src="https://img.shields.io/badge/Github-Indexed-blue.svg?style=plastic&amp;logo=github" alt="GitHub" /> <img src="https://img.shields.io/badge/CurseForge-listed-blue.svg?style=plastic" alt="Curseforge" /><br />
-<img src="https://github.com/zer0Kerbal/ScrapYard/workflows/Validate%20AVC%20.version%20files/badge.svg" alt="Validate AVC .version files" /></p>
+<h2 id="download-on-curseforge-or-github-or-spacedock">Download on <a href="https://www.curseforge.com/kerbal/ksp-mods/WhimChaser" title="Curseforge">Curseforge</a> or <a href="https://github.com/zer0Kerbal/WhimChaser/" title="GitHub">Github</a> or <a href="http://spacedock.info/mod/831" title="SpaceDock">SpaceDock</a>.</h2>
+<h5 id="also-available-on-ckan-as-whimchaser">Also available on <a href="https://forum.kerbalspaceprogram.com/index.php?/topic/154922-*" title="CKAN">CKAN</a> as <em><code>WhimChaser</code>.</em></h5>
+<h1 id="whimchaser-by-axial-aerospace-whim">WhimChaser by Axial Aerospace (WHIM)</h1>
+<p>Provides a fun to fly efficient vertical launch/glider return vessel that can handle rescue missions as well as providing a low-cost crew service vessel (CSV) for Kerbal Space Program.</p>
+<h4 id="adopted-for-curation-by-zer0kerbal-originally-by-artwhaley">Adopted for curation by <a href="https://forum.kerbalspaceprogram.com/index.php?/profile/190933-zer0kerbal/" title="zer0Kerbal"><code>@zer0Kerbal</code></a>, originally by <a href="https://forum.kerbalspaceprogram.com/index.php?/profile/118388-artwhaley/" title="artwhaley"><code>@artwhaley</code></a></h4>
+<p><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/WhimChaser/master/json/mod.json" alt="Mod Version" /> <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/WhimChaser/master/json/ksp.json&amp;logo=data:image/webp;base64,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" title="Kerbal Space Program" alt="KSP version" /> <a href="https://choosealicense.com/licenses/bsd-2-clause/" title="Expat-MIT"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/WhimChaser/master/json/license.json&amp;logo=FreeBSD&amp;logoColor=ab2b28" title="Expat-MIT" alt="License Expat-MIT" /></a></p>
+<p><a href="https://www.curseforge.com/kerbal/ksp-mods/WhimChaser" title="Curseforge"><img src="https://img.shields.io/badge/CurseForge-Listed-blue.svg?labelColor=black&amp;style=plastic&amp;logo=curseforge" title="Curseforge" alt="Curseforge" /></a> <a href="https://forum.kerbalspaceprogram.com/index.php?/topic/154922-*" title="CKAN"><img src="https://img.shields.io/badge/CKAN-WhimChaser-blue.svg?labelColor=black&amp;style=plastic" title="CKAN" alt="CKAN" /></a> <a href="https://github.com/zer0Kerbal/WhimChaser/" title="GitHub"><img src="https://img.shields.io/badge/Github-Indexed-blue.svg?labelColor=black&amp;style=plastic&amp;logo=github" title="GitHub" alt="GitHub" /></a> <a href="http://spacedock.info/mod/831" title="SpaceDock"><img src="https://img.shields.io/badge/SpaceDock-Listed-blue.svg?labelColor=black&amp;style=plastic&amp;logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA1MDAgNTAwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MDAgNTAwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6IzFBMUExQTt9Cgkuc3Qxe2ZpbGw6IzA1Nzg5Mzt9Cgkuc3Qye2ZpbGw6IzA3QUNEMjt9Cjwvc3R5bGU+CjxwYXRoIGlkPSJYTUxJRF8xXyIgY2xhc3M9InN0MCIgZD0iTTQwMCwwLjZIMTAwYy01NSwwLTEwMCw0NS0xMDAsMTAwVjQwMGMwLDU1LDQ1LDEwMCwxMDAsMTAwaDMwMGM1NSwwLDEwMC00NSwxMDAtMTAwVjEwMC42CglDNTAwLDQ1LjYsNDU1LDAuNiw0MDAsMC42eiIvPgo8ZyBpZD0iWE1MSURfNl8iPgoJPGcgaWQ9IlhNTElEXzlfIj4KCQk8cGF0aCBpZD0iWE1MSURfMTdfIiBjbGFzcz0ic3QxIiBkPSJNMTgzLjMsMTY1LjljNi40LTMuNiwxNi45LTMuNiwyMy4zLDBMNDY3LjQsMzE0YzYuNCwzLjYsNi40LDkuNiwwLDEzLjJMMjA2LjYsNDc0LjQKCQkJYy02LjQsMy42LTE3LjcsNi42LTI1LDYuNmgtNDQuOGMtNy40LDAtOC4xLTMtMS43LTYuNmwyNjEtMTQ3LjJjNi40LTMuNiw2LjQtOS42LDAtMTMuMkwxNzEsMTg2Yy02LjQtMy42LTYuNC05LjYsMC0xMy4yCgkJCUwxODMuMywxNjUuOXoiLz4KCTwvZz4KCTxnIGlkPSJYTUxJRF84XyI+CgkJPHBhdGggaWQ9IlhNTElEXzE2XyIgY2xhc3M9InN0MiIgZD0iTTMxOC44LDE5Yy03LjQsMC0xOC42LDIuOC0yNSw2LjRMMzMsMTczLjRjLTYuNCwzLjYtNi40LDkuNSwwLDEzLjFsMjYwLjcsMTQ3LjEKCQkJYzYuNCwzLjYsMTYuOSwzLjYsMjMuMywwbDEyLjMtN2M2LjQtMy42LDYuNC05LjUsMC0xMy4ybC0yMjUuMS0xMjdjLTYuNC0zLjYtNi40LTkuNSwwLTEzLjJMMzY1LjYsMjUuNGM2LjQtMy42LDUuNi02LjQtMS43LTYuNAoJCQlIMzE4Ljh6Ii8+Cgk8L2c+CjwvZz4KPC9zdmc+Cg==" title="SpaceDock" alt="SpaceDock" /></a></p>
+<p><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/WhimChaser/master/json/code.json" alt="Code" /> <img src="https://img.shields.io/badge/AVC-Supported-brightgreen.svg?style=plastic" title="AVC" alt="KSP-AVC" /> <img src="https://github.com/zer0Kerbal/WhimChaser/workflows/Validate%20AVC%20.version%20files/badge.svg" title="AVC-Valid" alt="Validate AVC .version files" /></p>
+<h6 id="brought-to-you-by-kgex"><em>brought to you by KGEx</em></h6>
 <hr />
-<p><a href="https://i.imgur.com/DVDdgU1.png">IMG:hero:0</a></p>
-<h3 id="preamble-by-severedsolo">Preamble by <a href="https://forum.kerbalspaceprogram.com/index.php?/profile/80345-severedsolo/">@severedsolo</a>:</h3>
+<h2 id="description">Description</h2>
+<h3 id="preamble-by-artwhaley">Preamble by <a href="https://forum.kerbalspaceprogram.com/index.php?/profile/118388-artwhaley/" title="artwhaley"><code>@artwhaley</code></a></h3>
 <blockquote>
-<p>So you may have heard that @magico13 is giving up modding KSP. I've got the honour of taking over support for ScrapYard, because it makes sense as I have my own mod that depends on it (Oh Scrap!). I want to take this opportunity to thank magico13 for all his hard work and contributions to the community over the years, as I know that my own KSP experience would be much poorer without his mods. Anyway, enough from me.</p>
+<p>Inspired by Dream Chaser and Pteron, and gives a flight profile similar to Dream Chaser and the Space Shuttle, so it's something familiar and educationally valid.</p>
+<p>This is a part for those times when you want to fly... not build. Towards that end, this single part has built in: ElectricCharge, MonoPropellant, Liquid Fuel, Oxidizer, aerodynamic control surfaces, 6-way RCS Thrusters and main Engines!</p>
+<p>So with a part count of 1, you can throw this thing on the launchpad, hit the space bar, and leave the ground. You won't get far - as the fuel tanks only carry about 525 m/s of delta-V, but it's more than enough to blast off, turn east, and practice gliding to the water.</p>
+<p>The idea is to launch and insert the shuttle into orbit on top of a conventional rocket then decouple and use the built-in engines and fuel for orbital maneuvering - shifting orbits, rendezvous(if you planned the launch well!) and de-orbit burn.</p>
+<p>As a glider... the lift and drag numbers aren't great... but this is a spaceship first and a glider second. It's designed for water landing (it CAN tumble to a stop on land without killing kerbals... but I wouldn't call that a 'landing' exactly.) Because of the reasonably steep glideslope I haven't successfully landed it with wheeled gear without a lot of bounce and flip... though it might be possible? The engine also has sufficient TWR that you can operate in glider mode down to the last 250m, drop airspeed to 50m/s, and then turn the nose up and engine on and do a powered, vertical landing. It's a bit of a trick, but it can be done.</p>
+<p>Keep in mind that this thing DOES generate lift from the body(though not OODLES of it)... so if you throw it on top of a rocket without any other aerodynamic surfaces it will be unstable. Standard winglets at the bottom of the launcher will keep the pointy end towards space. Because it's a single part... when it's by itself the COM and COL are at the same point when it doesn't have anything else attached. If you attach anything to it that shifts the COM aft, you're going to have stability problems unless you also attach winglets back there. I've had no problem throwing a small docking port on the back of the vessel, but trying to just strap an engine or fuel tanks to the back is a recipe for disaster when you're inside the atmosphere. Keep the COM at or in front of the COL and keep SAS on and it flies rather nicely... for a stubby space brick!</p>
+<p>Here's a terrible youtube video showing the basics of flying the gizmo! I recorded it on my development machine which is set for low graphics quality to help speed up the thousand reloads required to get a mod working!</p>
 </blockquote>
-<h3 id="installation-directions">Installation Directions:</h3>
+<details>
+  <summary>Embedded artwhaley Youtube Video</summary>
+    <iframe width="1070" height="602" src="https://www.youtube.com/embed/nqosqmBCzF8" title="artwhaley flys the WhimChaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</details>
+
+<!-- [![][UTUBE:img]][UTUBE:link]  -->
+
+<h2 id="features">Features</h2>
+<p>This mod adds three parts</p>
 <ul>
-<li>Use CKAN</li>
+<li>Part: WhimChaser pod with resources, 6-way RCS thrusters, and engines</li>
+<li>Part: ServiceModule with resources and integrated junior compatible docking ports</li>
+<li>Part: ServiceModule-small with resources and integrated junior compatible docking ports</li>
+<li>NEAR/FAR configs are included.</li>
+<li>ODFC configs are included.</li>
 </ul>
-<h3 id="changelog-summary">Changelog Summary</h3>
-<p><em>See <a href="https://github.com/zer0Kerbal/ScrapYard/Changelog.cfg">ChangeLog</a> for full details of mod changes</em></p>
 <hr />
+<p><img src="https://via.placeholder.com/256x160png/ffffff/bada55?text=KGEx" title="Flag" alt="Flag" /><br />
+<img src="https://raw.githubusercontent.com/zer0Kerbal/WhimChaser/master/img/hero.png" title="On a wing and a prayer" alt="On a wing and a prayer" /></p>
+<h4 id="cabin-notes">Cabin notes</h4>
+<blockquote>
+<ul>
+<li>The mod contains three parts, a command pod, and two sizes of service modules.</li>
+<li>Future Plans: lol. Except compatibility patches, keep it working with future KSP updates.</li>
+<li>Community Tech Tree integration and Tech Tree Balancing (need feedback and assistance)</li>
+<li>I have not personally tested the patches</li>
+<li>Have a request? Glad to have them, kindly submit through GitHub.</li>
+<li>Would love to see one or more textures that could be set as variants. Would need help with the textures. :D</li>
+<li>From the original roadmap
+<ul>
+<li>Retractable docking port for Shuttle itself.</li>
+<li>IVA interior</li>
+<li>Fairing for launch</li>
+<li>Solar Panels on Service Modules</li>
+</ul></li>
+</ul>
+</blockquote>
+<hr />
+<h3 id="localization">Localization</h3>
+<ul>
+<li><input type="checkbox" disabled="" checked="" />
+English</li>
+<li>☐</li>
+</ul>
+<blockquote>
+<p>Help Wanted <em>work in progress</em> <em>Additions and corrections solicited and welcome!</em></p>
+</blockquote>
+<p>See the <a href="https://github.com/zer0Kerbal/WhimChaser/blob/master/GameData/WhimChaser/Localization/readme.md" title="Localization">README in the Localization folder</a> for instructions for adding or improving translations for languages other than English. <a href="https://github.com/zer0Kerbal/WhimChaser/" title="GitHub">GitHub</a> push is the best way to contribute.</p>
+<hr />
+<h3 id="how-to-support">How to support</h3>
+<p><a href="https://www.paypal.com/donate?hosted_button_id=R9ACWD7VREBCY" title="PayPal"><img src="https://img.shields.io/badge/Buy%20me%20some%20-MonoPropellant-BADA55?style=for-the-badge&amp;logo=paypal&amp;labelColor=FFDD00" title="PayPal" alt="Support" /></a> <a href="https://github.com/sponsors/zer0Kerbal" title="Github Sponsors"><img src="https://img.shields.io/badge/Github%20-Sponsor-EA4AAA?style=for-the-badge&amp;logo=githubsponsors" title="Github Sponsors" alt="Github Sponsor" /></a> <a href="https://www.patreon.com/bePatron?u=23390503" title="Patreon"><img src="https://img.shields.io/badge/Patreon%20-Patreonize-FF424D?style=for-the-badge&amp;logo=patreon" title="Patreon" alt="Patreon" /></a> <a href="https://buymeacoffee.com/zer0Kerbal" title="Buy Me A Snack"><img src="https://img.shields.io/badge/Buy%20Me%20a%20-Snack!-FFDD00?style=for-the-badge&amp;logo=buymeacoffee" title="Buy Me A Snack" alt="Buy zer0Kerbal a snack" /></a></p>
+<hr />
+<h3 id="see-more">See More</h3>
+<ul>
+<li>Discussions and news on this mod: See <a href="https://github.com/zer0Kerbal/WhimChaser/discussions" title="Discussions">Discussions</a> or <a href="https://forum.kerbalspaceprogram.com/index.php?/topic/204186-*" title="Mod Forum Thread">KSP Forums</a></li>
+<li>Changelog Summary for more details of changes : See <a href="https://github.com/zer0Kerbal/WhimChaser/Changelog.cfg" title="Changelog">ChangeLog</a></li>
+<li>Known Issues for more details of feature requests and known issues : See <a href="https://github.com/zer0Kerbal/WhimChaser/wiki/Known-Issues" title="Known Issues">Known Issues</a></li>
+</ul>
+<hr />
+<h3 id="installation-directions">Installation Directions</h3>
+<ul>
+<li>Use<br />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/154922-*" title="CKAN"><img src="https://i.postimg.cc/x8XSVg4R/sj507JC.png" title="CKAN" alt="CKAN" /></a></li>
+</ul>
 <h3 id="dependencies">Dependencies</h3>
 <ul class="task-list">
 <li><input type="checkbox" disabled="" checked="" />
-<a href="http://kerbalspaceprogram.com/">Kerbal Space Program</a> <a href="http://kerbalspaceprogram.com/"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/ScrapYard/master/json/ksp.json" /></a> <em><strong>may</strong></em> work on other versions (YMMV)</li>
+<a href="https://kerbalspaceprogram.com/" title="Kerbal Space Program">Kerbal Space Program</a> <a href="https://kerbalspaceprogram.com/" title="Kerbal Space Program"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/WhimChaser/master/json/ksp.json&amp;logo=data:image/webp;base64,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" title="Kerbal Space Program" /></a> [^1]</li>
 <li><input type="checkbox" disabled="" checked="" />
-<a href="http://forum.kerbalspaceprogram.com/index.php?/topic/50533-*" title="Module Manager">Module Manager</a></li>
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*" title="Module Manager">Module Manager</a> [^2] in order for patches to work</li>
 </ul>
-<h3 id="recomends">Recomends</h3>
+<h3 id="recommends">Recommends</h3>
 <ul class="task-list">
 <li><input type="checkbox" disabled="" checked="" />
-[OhScrap!][thread:ohscrap]</li>
-<li><input type="checkbox" disabled="" checked="" />
-<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/179207-*" title="Kerbal Change Log">Kerbal Change Log</a></li>
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/154922-*" title="CKAN">Comprehensive Kerbal Archive Network (CKAN)</a> [^3]</li>
 </ul>
 <h3 id="suggests">Suggests</h3>
+<h4 id="axial-aerospace-mods-by-artwhaley">Axial Aerospace mods by <a href="https://forum.kerbalspaceprogram.com/index.php?/profile/118388-artwhaley/" title="artwhaley">'artwhaley'</a></h4>
 <ul class="task-list">
 <li><input type="checkbox" disabled="" checked="" />
-<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/179306-*" title="StageRecovery">StageRecovery</a></li>
+[WhimChaser (WHIM)][LINK:WhimChaser" },</li>
 <li><input type="checkbox" disabled="" checked="" />
-<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/182877-*" title="Kerbal Construction Time">Kerbal Construction Time</a></li>
+[Dreamer (DREAM)][LINK:Dreamer" },</li>
 <li><input type="checkbox" disabled="" checked="" />
-[LessRealThanReal][thread:lessrealthanreal] by <a href="https://forum.kerbalspaceprogram.com/index.php?/profile/182810-pehvbot/">@Pehvbot</a></li>
+<a href="https://github.com/zer0Kerbal/SimpleCargo" title="Simple Cargo Solutions (SCS)">Simple Cargo Solutions (SCS)</a></li>
+<li><input type="checkbox" disabled="" checked="" />
+[LanderTek (LTK)][LINK:LanderTek" },</li>
 </ul>
-<h3 id="supports">Supports</h3>
+<h4 id="mods-that-benefit-whimchaser-whim">Mods that benefit WhimChaser (WHIM)</h4>
 <ul class="task-list">
 <li><input type="checkbox" disabled="" checked="" />
-[KRASH][thread:krash]</li>
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/192938-*" title="KaboOom!">KaboOom! (BOOM)</a> another way to not go to space today</li>
 <li><input type="checkbox" disabled="" checked="" />
-[TweakScale][thread:tweakscale]</li>
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/187625-*" title="On Demand Fuel Cells">On Demand Fuel Cells (ODFC))</a></li>
 <li><input type="checkbox" disabled="" checked="" />
-[RemoteTech][thread:remotetech]</li>
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/191426-*" title="Biomatic">Biomatic (BIO)</a></li>
 <li><input type="checkbox" disabled="" checked="" />
-[FAR][thread:far]</li>
-<li><input type="checkbox" disabled="" checked="" />
-[ContractConfigurator][thread:contractconfigurator]</li>
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/204186-*" title="Mini Sample Return Capsule">Mini Sample Return Capsule (MSRC)</a></li>
+</ul>
+<h4 id="other-fun-mods-by-zedk">Other fun mods by <a href="https://forum.kerbalspaceprogram.com/index.php?/profile/190933-zer0kerbal/" title="zer0Kerbal"><code>zed'K</code></a></h4>
+<ul class="task-list">
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/191045-*" title="SimpleLogistics!">SimpleLogistics! (SLOG!)</a></p></li>
+<li><p><input type="checkbox" disabled="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/51430-*" title="Foundations - in beta now">Foundations (FND) - beta</a> <em><strong>Helps prevent ground constructions from floating away :)</strong></em></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/191719-*" title="Stork Delivery System (SDS)">Stork Delivery System (SDS)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/202749-*" title="Komplexity (KMPX)">Komplexity (KPLX)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/192742-*" title="Pteron (MSRV)">Pteron (MSRV)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/189466-*" title="Jack-O&#39;-Lantern">Jack-O-Lantern (JACK)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/191525-*" title="MoarKerbals">MoarKerbals(MOAR)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/191719-*" title="DaMichel&#39;s CargoBays">DaMichel's CargoBays (DCB)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/191719-*" title="DaMichel&#39;s AeroRadial">DaMichel's AeroRadial (DAR)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/191719-*" title="DaMichel&#39;s Fuselage">DaMichel's Fuselage (DMF)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/191719-*" title="DaMichel&#39;s Spherical Tanks">DaMichel's Spherical Tanks (DST)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/188841-*" title="Field Training Facility">Field Training Facility (FTF)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/188841-*" title="Field Training Lab">Field Training Lab (FTL)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/192184-*" title="Docking Port Descriptions">Docking Port Descriptions(DPD)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/192187-*" title="Shielded PicoPort">PicoPort Shielded (PPS)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/187495-*" title="Transparent Command Pods">Transparent Command Pods) (TCP)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/188246-*" title="More Hitchhikers">More Hitchhikers) (MHH)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/190870-*" title="B9 Stock Switches">B9 Stock Patches (B9S)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/192360-*" title="Oh Scrap!">Oh Scrap!</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/192360-*" title="ScrapYard">ScrapYard</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/192489-*" title="Solar Science (SOLS)">Solar Science (SOLS)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/192696-*" title="KerGuise Experimental Engineering">KerGuise Experimental Engineering (KGEx)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+[The Gold Standard (GOLD)][thread:TheGoldStandard]</p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="http://forum.kerbalspaceprogram.com/index.php?/topic/202945-*" title="Keridian Dynamics Vessel Assembly (KDVA)">Keridian Dynamics Vessel Assembly (KDVA)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/193078-*" title="Olympic1&#39;s ARP Icons">Olympic's ARP Icons (ARPI)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/193050-*" title="Stock Inline Lights">Stack Inline Lights (SIL)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/193051-*" title="Stock Inline Lights Patches">Stack Inline Lights - Patches (SILP)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/179207-*" title="Kerbal ChangeLog">Kerbal Changelog</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="http://remotetechnologiesgroup.github.io/RemoteTech/" title="RemoteTech">RemoteTech</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="http://ksp-kos.github.io/KOS_DOC/" title="Kerbal Operating System (kOS)">Kerbal Operating System (kOS)</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="" />
+<a href="http://forum.kerbalspaceprogram.com/index.php?/topic/154853-*" title="Tarsier Space Tech">Tarsier Space Tech</a></p></li>
 </ul>
 <h3 id="conflicts">Conflicts</h3>
 <ul>
-<li>none known</li>
+<li>none</li>
+</ul>
+<h3 id="replaces">Replaces</h3>
+<ul>
+<li>none</li>
+</ul>
+<h3 id="tags">Tags</h3>
+<ul>
+<li>parts, config, career, uncrewed</li>
 </ul>
 <hr />
-<p><em>red box below is a link to forum post on how to get support</em><br />
-<a href="https://forum.kerbalspaceprogram.com/index.php?/topic/83212-*"><img src="https://i.postimg.cc/vHP6zmrw/image.png" alt="How to get support" /></a></p>
-<h3 id="license">License</h3>
-<h4 id="aka-legal-mumbo-jumbo">aka Legal Mumbo Jumbo</h4>
-<p>Source: <a href="https://github.com/zer0Kerbal/ScrapYard/">GitHub</a><br />
-License: <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/ScrapYard/master/json/license.json" alt="License MIT" /> <img src="https://i.postimg.cc/bvjfsMP5/MIT-17x17.png" /></p>
+<div style="border:0.5px solid Tomato; background-color: lightgrey; color: #FF0000; text-align:center">
+<p><b>*red box below is a link to forum post on how to get support*</p>  
+<a href = "https://forum.kerbalspaceprogram.com/index.php?/topic/83212-*">
+  <p><img src = "https://i.postimg.cc/vHP6zmrw/image.png" alt="How to get support"></p></a></div>
+
+<h3 id="credits">Credits</h3>
+<ul>
+<li><a href="https://forum.kerbalspaceprogram.com/index.php?/profile/118388-artwhaley/" title="artwhaley"><code>@artwhaley</code></a> - original mod</li>
+</ul>
+<h3 id="legal-mumbo-jumbo-license">Legal Mumbo Jumbo (License)</h3>
+<h4 id="current-1---zer0kerbal">Current (1) - <a href="https://forum.kerbalspaceprogram.com/index.php?/profile/190933-zer0kerbal/" title="zer0Kerbal"><code>zer0Kerbal</code></a></h4>
 <blockquote>
-<p>*** All bundled mods are distributed under their own licenses***<br> *** All art assets (textures, models, animations) are distributed under their own licenses***</p>
+<p>Forum: <a href="https://forum.kerbalspaceprogram.com/index.php?/topic/204186-*" title="Mod Forum Thread">Thread</a> - Source: <a href="https://github.com/zer0Kerbal/WhimChaser/" title="GitHub">GitHub</a><br />
+License: <a href="https://choosealicense.com/licenses/bsd-2-clause/" title="Expat-MIT"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/WhimChaser/master/json/license.json&amp;logo=FreeBSD&amp;logoColor=ab2b28" title="Expat-MIT" alt="License Expat-MIT" /></a></p>
 </blockquote>
-<h3 id="original">Original</h3>
-<p><a href="https://forum.kerbalspaceprogram.com/index.php?/topic/178641-*">Thread</a><br />
-<a href="https://github.com/severedsolo/ScrapYard/releases/latest">Download</a><br />
-Source: <a href="https://github.com/severedsolo/ScrapYard">GitHub</a><br />
-License: <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/ScrapYard/master/json/license.json" alt="License MIT" /> <img src="https://i.postimg.cc/bvjfsMP5/MIT-17x17.png" /></p>
+<blockquote>
+<p>*** All bundled mods are distributed under their own licenses ***<br />
+*** All art assets (textures, models, animations) are distributed under their own licenses ***</p>
+</blockquote>
+<h4 id="original-0---author-artwhaley">Original (0) - Author: <a href="https://forum.kerbalspaceprogram.com/index.php?/profile/118388-artwhaley/" title="artwhaley"><code>@artwhaley</code></a></h4>
+<blockquote>
+<p><a href="https://forum.kerbalspaceprogram.com/index.php?/topic/143414-*" title="Original Thread">Thread</a> - <a href="https://spacedock.info/mod/831" title="SpaceDock">Download</a> - Source: <a href="https://spacedock.info/mod/831" title="SpaceDock">GitHub</a> License: <a href="https://choosealicense.com/licenses/bsd-2-clause/" title="Expat-MIT"><img src="https://img.shields.io/badge/license-SimpleBSD-ab2b28?logo=FreeBSD&amp;labelColor=white&amp;logoColor=ab2b28" title="Expat-MIT" alt="License Expat-MIT" /></a></p>
+</blockquote>
+<hr />
 <!-- graphical links to downloads -->
 
-<p><a href="https://github.com/zer0Kerbal/ScrapYard/releases/latest" title="GitHub"><img src="https://i.imgur.com/RE4Ppr9.png" /></a> <a href="http://spacedock.info/mod/1746"><img src="https://i.imgur.com/m0a7tn2.png" /></a> <a href="https://www.curseforge.com/kerbal/ksp-mods/scrapyard"><img src="https://i.postimg.cc/RZNyB5vP/Download-On-Curse.png" /></a></p>
-<p><em>Be Kind: Lithobrake, not jakebrake! Keep your Module Manager up to date</em></p>
-<h6 id="v2010-original-01-oct-2019-zedk--updated-16-mar-2020-zedk">v2.0.1.0 original: 01 Oct 2019 zed'K | updated: 16 Mar 2020 zed'K</h6>
-<!--- original mod stuff -->
+<p><a href="https://www.curseforge.com/kerbal/ksp-mods/WhimChaser" title="Curseforge"><img src="https://i.postimg.cc/RZNyB5vP/Download-On-Curse.png" title="Curseforge" /></a> <a href="https://github.com/zer0Kerbal/WhimChaser/" title="GitHub"><img src="https://i.imgur.com/RE4Ppr9.png" title="GitHub" /></a> <a href="http://spacedock.info/mod/831" title="SpaceDock"><img src="https://i.imgur.com/m0a7tn2.png" title="SpaceDock" /></a></p>
+<h5 id="be-kind-lithobrake-not-jakebrake-keep-your-module-manager-up-to-date">Be Kind: Lithobrake, not jakebrake! Keep your Module Manager up to date</h5>
+<p><img src="https://raw.githubusercontent.com/zer0Kerbal/WhimChaser/master/img/HeroLogo_960x960.png" title="Logo" alt="IMG:hero:1" /></p>
+<h6 id="v1400-original-01-oct-2019-zedk--updated-15-sep-2021-zedk">v1.4.0.0 original: 01 Oct 2019 zed'K | updated: 15 Sep 2021 zed'K</h6>
+<!-- mod links -->
+
+<!--- original mod -->
+
+<!--- release links -->
+
+<!--- original mod -->
+
+<!--- license  -->
+
+<!--- AVC --->
+
+<!--- Support --->
+
+<!--- CKAN -->
+
+<!--- release links -->
+
+<!-- Kerbal Space Program -->
 
 <!-- zer0Kerbal mods -->
 
-<p>[thread:NSSC: https://forum.kerbalspaceprogram.com/index.php?/topic/191504-* "Not So SimpleConstructon!"<br />
-[thread:BIO]: https://forum.kerbalspaceprogram.com/index.php?/topic/191426-* "Biomatic"<br />
-[thread:VG0]: http:// "Vanguard"<br />
-[thread:PRB]: http:// "ProbiTronics"<br />
-[thread:CTN]: http:// "CTN"<br />
-[thread:BSS]: http:// "B9 Stock Switches"<br />
-[thread:HB!]: http:// "HotBeverages"</p>
+<!-- other mods -->
+
+<!--- statics -->
+
+<!-- footnotes -->
+
+<p>[^1]: <em><strong>may</strong></em> work on other versions (YMMV) [^2]: <em>Be Kind: Lithobrake, not jakebrake! Keep your Module Manager up to date!</em> [^3]: this isn't a mod. ;P</p>
+<!--- misc logos -->
+
+<!--- utube links -->
+
+<p>Sample Return Capsule"</p>
+<!-- financial support -->
+
+<!-- https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif "PayPal"  
+https://paypal.me/zer0Kerbal?locale.x=en_US -->
+
 <!--
 this file: GPLv2
 zer0Kerbal-->
