@@ -231,7 +231,7 @@ See the [README in the Localization folder][LINK:localization] for instructions 
 [MOD:clog]: https://github.com/zer0Kerbal/WhimChaser/Changelog.cfg "Changelog"
 [MOD:disc]: https://github.com/zer0Kerbal/WhimChaser/discussions "Discussions"
 [MOD:known]:  https://github.com/zer0Kerbal/WhimChaser/wiki/Known-Issues "Known Issues"
-[MOD:thread]:  https://forum.kerbalspaceprogram.com/index.php?/topic/204186-* "Mod Forum Thread"
+[MOD:thread]:  https://forum.kerbalspaceprogram.com/index.php?/topic/204900-* "Mod Forum Thread"
 [MOD:issues]:  https://github.com/zer0Kerbal/WhimChaser/issues "Known Issues"
 [MOD:contrib]: https://github.com/zer0Kerbal/WhimChaser/blob/master/.github/CONTRIBUTING.md "Contributing"
 [LINK:localization]: https://github.com/zer0Kerbal/WhimChaser/blob/master/GameData/WhimChaser/Localization/readme.md "Localization"
@@ -255,9 +255,9 @@ See the [README in the Localization folder][LINK:localization] for instructions 
 [AVCVLD:shld]: https://github.com/zer0Kerbal/WhimChaser/workflows/Validate%20AVC%20.version%20files/badge.svg "AVC-Valid"
 
 <!--- original mod -->
-[MOD:orig:source]: https://spacedock.info/mod/831 "SpaceDock"
-[MOD:orig:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/143414-* "Original Thread"
-[MOD:orig:download]: https://spacedock.info/mod/831 "SpaceDock"
+[MOD:orig:source]: https://forum.kerbalspaceprogram.com/index.php?/topic/83101-* "Original Thread"
+[MOD:orig:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/83101-* "Original Thread"
+[MOD:orig:download]: https://forum.kerbalspaceprogram.com/index.php?/topic/83101-* "Original Thread"
 
 <!--- license  -->  
 [LICENSE:url]: https://opensource.org/licenses/MIT "Expat-MIT"
@@ -335,9 +335,9 @@ See the [README in the Localization folder][LINK:localization] for instructions 
 [thread:SLIF!]: https://forum.kerbalspaceprogram.com/index.php?/topic/191526-* "SimpleLife!"
 [thread:SLOG!]: https://forum.kerbalspaceprogram.com/index.php?/topic/191045-* "SimpleLogistics!"
 
-[LINK:WhimChaser]:  https://github.com/zer0Kerbal/WhimChaser "WhimChaser (WHIM)"
-[LINK:Dreamer]:  https://github.com/zer0Kerbal/Dreamer "Dreamer (DREAM)"
-[LINK:LanderTek]:  https://github.com/zer0Kerbal/LanderTek "LanderTek (LTK)"
+[LINK:Dreamer]: https://github.com/zer0Kerbal/Dreamer "Dreamer (DREAM)"
+[LINK:LanderTek]: https://github.com/zer0Kerbal/LanderTek "LanderTek (LTK)"
+[LINK:WhimChaser]: https://github.com/zer0Kerbal/WhimChaser "WhimChaser (WHIM)"
 
 <!-- other mods -->
 [thread:cc]:  https://forum.kerbalspaceprogram.com/index.php?/topic/91625-* "Contract Configurator"
