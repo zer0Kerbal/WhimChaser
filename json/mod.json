@@ -1,8 +1,8 @@
 {
  "schemaVersion": 1,
  "label": "WhimChaser",
- "labelColor": "darkgreen",
+ "labelColor": "BADA55",
  "message": "0.5.99.0",
- "color": "orange",
+ "color": "darkgreen",
  "style": "plastic"
 }
