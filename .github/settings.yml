@@ -234,7 +234,6 @@ milestones:
   - title: 0.5.99.1-prerelease
     description: progress toward 0.5.99.1-prerelease
     state: open
-    due_on: 2022-08-10
 
   - title: 0.6.0.0-release
     description: progress toward 0.6.0.0-release
