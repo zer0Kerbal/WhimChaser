@@ -13,7 +13,7 @@ updated: 31 Jul 2022 -->
 
 # WhimChaser by Axial Aerospace (WHIM)
 
-Provides a fun to fly efficient  vertical launch/glider return vessel that can handle rescue missions as well as providing a low-cost crew service vessel (CSV) for Kerbal Space Program.
+Provides a fun to fly, efficient vertical launch/glider return vessel that can handle rescue missions as well as providing a low-cost crew service vessel (CSV) for Kerbal Space Program.
 
 
 
@@ -326,7 +326,7 @@ or [![CKAN][CKAN:img]][CKAN:url]
 [zer0Kerbal]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/ "zer0Kerbal"
 
 <!--- misc logos -->
-[IMG:flg:0]: https://via.placeholder.com/256x160png/ffffff/bada55?text=WHIM "Flag"
+[IMG:flg:0]: https://raw.githubusercontent.com/zer0Kerbal/AxialAerospaceLtd/master/img/AxialAerospaceFlag.png "Axial Aerospace"
 
 #### Connect with me
 
