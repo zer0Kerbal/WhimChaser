@@ -81,6 +81,6 @@ To install, place the `GameData` folder inside your Kerbal Space Program folder:
 
 * [AxialAerospace Ltd (AA/L)][AAL]
 
-[AAL]: https://forum.kerbalspaceprogram.com/index.php?/topic/191424-* "AxialAerospace Ltd (AA/L)"
+[AAL]: https://github.com/zer0Kerbal/AxialAerospaceLtd "AxialAerospace Ltd (AA/L)"
 [mm]: https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/ "Module Manager"
 [mml]: https://github.com/net-lisias-ksp/ModuleManager "Module Manager /L"
