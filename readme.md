@@ -64,8 +64,7 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 * GitHub Pages : See [Pages][MOD:pages]
 
 ---
-
-![Flag][IMG:flg:0]
+<img src="https://raw.githubusercontent.com/zer0Kerbal/AxialAerospaceLtd/master/img/AxialAerospaceFlag.png" alt="Axial Aerospace Ltd" width="36%" height="36%">
 
 ### YouTube
 
@@ -325,9 +324,6 @@ or [![CKAN][CKAN:img]][CKAN:url]
 <!--- statics -->
 [artwhaley]: https://forum.kerbalspaceprogram.com/index.php?/profile/118388-*/ "artwhaley"
 [zer0Kerbal]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/ "zer0Kerbal"
-
-<!--- misc logos -->
-[IMG:flg:0]: https://raw.githubusercontent.com/zer0Kerbal/AxialAerospaceLtd/master/img/AxialAerospaceFlag.png "Axial Aerospace"
 
 #### Connect with me
 
