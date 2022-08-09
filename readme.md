@@ -23,11 +23,13 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 
 <img src="https://raw.githubusercontent.com/zer0Kerbal/WhimChaser/master/img/HeroLogo_1920x1920.png" alt="WhimChaser Hero" width="72%" height="72%">
 
-## Features
-
 * This part addon features three(3) new parts
 * Part:
-  * WhimChaser pod with resources, 6-way RCS thrusters, and engines
+  * WhimChaser pod
+    * seats two
+    * resources
+    * 6-way RCS thrusters
+    * engines
   * Two ServiceModules
     * with resources and integrated junior compatible docking ports
     * regular and small sizes
@@ -218,7 +220,6 @@ or [![CKAN][CKAN:img]][CKAN:url]
 [CODE:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/WhimChaser/master/json/code.json
 
 [MOD:pages:shd]: https://img.shields.io/badge/GitHub-Pages-white?style=plastic&labelColor=9cf&logoColor=181717&logo=github "GitHub IO"
-
 
 <!--- mod provenance -->
 [MOD:0:dnload]: http://beta.kerbalstuff.com/mod/122/Whim_Chaser "KerbalStuff"
