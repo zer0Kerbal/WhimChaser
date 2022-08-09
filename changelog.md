@@ -29,36 +29,45 @@ Resources and corresponding tanks have changed density/volume/cost/mass
 
 * updates #17 - part.cfg bugs
 
-* Changelog, .version, Readme.md
-  * created Changelog.cfg [KERBALCHANGELOG] (.this)
-  * Add license field
-  * Add author node
-  * Add version naming field
-  * added additional fields in .version (might need to tweak urls)
-  * added shields to Readme.md
-* Online
-  * GitHub Repo
-  * created Forum Thread
-  * updated SpaceDock
-  * updated CKAN/NetKAN
-* modernization, polish, update pass on .cfg
-  * mesh = with MODEL{}
-  * .tga -> .dds ( mb ->	mb)
-  * in patches
-  * deploy/release process
-* Adoption by zer0Kerbal
-  * Adoption Papers
-  * Adoption Notice
+### Changelog, .version, Readme.md
+
+* created Changelog.cfg [KERBALCHANGELOG] (.this)
+* Add license field
+* Add author node
+* Add version naming field
+* added additional fields in .version (might need to tweak urls)
+* added shields to Readme.md
+
+### Online
+
+* GitHub Repo
+* created Forum Thread
+* updated SpaceDock
+* updated CKAN/NetKAN
+
+### modernization, polish, update pass on .cfg
+
+* mesh = with MODEL{}
+* .tga -> .dds ( mb ->	mb)
+* in patches
+* deploy/release process
+
+### Adoption by zer0Kerbal
+
+* Adoption Papers
+* Adoption Notice
 * licenses
   * for existing repo/postings
-* organize for adoption
-  * structure
-  * license(s) file(s)
-  * .version file
-  * backend
-  * md -> Kerbal Changelog Changelog.cfg
-  * Readme.md
-  * changelog into separate file
+
+### Organize for adoption
+
+* structure
+* license(s) file(s)
+* .version file
+* backend
+* md -> Kerbal Changelog Changelog.cfg
+* Readme.md
+* changelog into separate file
 
 ### Asset Updates
 
