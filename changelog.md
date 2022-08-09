@@ -12,13 +12,27 @@
 
 ## Version 0.5.5.0-release
 
-* No changelog provided
+* September 2, 2014
+
+* docking ports 'control from here' feature working
 
 ---
 
-## Version 0.5.0.0-release
+## Version 0.5.0.0-release - `<Service Module>` edition
 
-* No changelog provided
+* September 2, 2014
+* For Kerbal Space Program 0.25
+
+* improved main pod
+  * mesh
+  * texture
+* adds
+  * two service modules
+    * They're heavy and they don't provide any lift
+    * designed to be detached before re-entry!
+    * integrated junior compatible docking ports
+    * give additional
+      * fuel, battery, and monopropellant
 
 ---
 
@@ -40,7 +54,15 @@
 * For Kerbal Space Program 0.24.2
 * Released on 2014-08-27
 
-* No changelog provided
+* improvements to
+  * mesh
+  * texture
+  * Still not finished, by far, but better than they were!
+* part.cfg
+  * Added
+  * remote control/flight without any kerbals onboard...
+  * which is useful for rescue missions
+  * keeping with the capabilities of the actual Dream Chaser as well!
 
 ---
 
