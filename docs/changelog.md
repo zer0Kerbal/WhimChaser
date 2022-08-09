@@ -138,7 +138,7 @@ Resources and corresponding tanks have changed density/volume/cost/mass
 ### Status 0.5.99.0
 
 * Issues
-* close #43 - WhimChaser (WHIM) 0.5.99.0-adoption `<Thank you artwhaley>` edition
+  * closes #43 - WhimChaser (WHIM) 0.5.99.0-adoption `<Thank you artwhaley>` edition
   * closes #44 - 0.5.99.0 Verify Legal Mumbo Jumbo
   * closes #45 - 0.5.99.0 Update Documentation
   * closes #46 - 0.5.99.0 Update Social Media
