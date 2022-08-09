@@ -48,7 +48,10 @@ Resources and corresponding tanks have changed density/volume/cost/mass
 ### modernization, polish, update pass on .cfg
 
 * mesh = with MODEL{}
-* .tga -> .dds ( mb ->	mb)
+* .tga -> .dds ( 12.0mb -> 2.66mb )
+  * <rescuepod4db.mbm> 4.0mb -> 1.33mb
+  * <servicemodule.mbm> 4.0mb -> 1.33mb
+  * <rescuepod4db.mbm> 4.0mb -> 0mb (eliminated)
 * in patches
 * deploy/release process
 
@@ -61,12 +64,14 @@ Resources and corresponding tanks have changed density/volume/cost/mass
 
 ### Organize for adoption
 
-* structure
-* license(s) file(s)
-* .version file
-* backend
-* md -> Kerbal Changelog Changelog.cfg
-* Readme.md
+* folder structure
+* Add
+  * license(s) file(s)
+  * .version file
+* automated backend
+* jsons
+* Changelog.md -> Kerbal Changelog Changelog.cfg
+* Updated Readme.md
 * changelog into separate file
 
 ### Asset Updates
