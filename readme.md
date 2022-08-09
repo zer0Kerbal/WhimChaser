@@ -5,7 +5,7 @@ updated: 31 Jul 2022 -->
 
 <!--this file: CC BY-ND 4.0 by zer0Kerbal-->
 
-[![WHIM][MOD:shd:latest]][MOD:forum] [![KSP version][KSP:shd]][KSP:url]  [![License][LIC:shd]][LIC:url] 
+[![WHIM][MOD:shd:latest]][MOD:forum] [![KSP version][KSP:shd]][KSP:url]  [![License][LIC:shd]][LIC:url]  
 [![Curseforge][CURSFG:shd]][CURSFG:url] [![GitHub][GITHUB:shd]][GITHUB:url] [![SpaceDock][SPCDCK:shd]][SPCDCK:url] [![CKAN][CKAN:shd]][CKAN:url]  
 [![Pages][MOD:pages:shd]][MOD:pages]
 
@@ -23,11 +23,13 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 
 <img src="https://raw.githubusercontent.com/zer0Kerbal/WhimChaser/master/img/HeroLogo_1920x1920.png" alt="WhimChaser Hero" width="72%" height="72%">
 
-## Features
-
 * This part addon features three(3) new parts
 * Part:
-  * WhimChaser pod with resources, 6-way RCS thrusters, and engines
+  * WhimChaser pod
+    * seats two
+    * resources
+    * 6-way RCS thrusters
+    * engines
   * Two ServiceModules
     * with resources and integrated junior compatible docking ports
     * regular and small sizes
@@ -62,8 +64,7 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 * GitHub Pages : See [Pages][MOD:pages]
 
 ---
-
-![Flag][IMG:flg:0]
+<img src="https://raw.githubusercontent.com/zer0Kerbal/AxialAerospaceLtd/master/img/AxialAerospaceFlag.png" alt="Axial Aerospace Ltd" width="36%" height="36%">
 
 ### YouTube
 
@@ -123,6 +124,7 @@ or [![CKAN][CKAN:img]][CKAN:url]
 ### Dependencies
 
 * [Kerbal Space Program][KSP:url] [![Kerbal Space Program][KSP:shd]][KSP:url] [^2]
+* [AxialAerospace Ltd (AA/L)][AAL]
 
 ### Suggests
 
@@ -219,7 +221,6 @@ or [![CKAN][CKAN:img]][CKAN:url]
 
 [MOD:pages:shd]: https://img.shields.io/badge/GitHub-Pages-white?style=plastic&labelColor=9cf&logoColor=181717&logo=github "GitHub IO"
 
-
 <!--- mod provenance -->
 [MOD:0:dnload]: http://beta.kerbalstuff.com/mod/122/Whim_Chaser "KerbalStuff"
 [MOD:0:source]: http://beta.kerbalstuff.com/mod/122/Whim_Chaser "KerbalStuff"
@@ -277,6 +278,7 @@ or [![CKAN][CKAN:img]][CKAN:url]
 [DREAM]: https://forum.kerbalspaceprogram.com/index.php?/topic/207306-*/ "Dreamer (DREAM)"
 [LTEK]: https://forum.kerbalspaceprogram.com/index.php?/topic/207923-*/ "LanderTek (LTK)"
 [WHIM]: https://forum.kerbalspaceprogram.com/index.php?/topic/204900-*/ "WhimChaser (WHIM)"
+[AAL]: https://github.com/zer0Kerbal/AxialAerospaceLtd "AxialAerospace Ltd. (AA/L)"
 
 [far]: https://forum.kerbalspaceprogram.com/index.php?/topic/179445-*/ "FAR"
 [mm]: https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/ "Module Manager"
@@ -324,9 +326,6 @@ or [![CKAN][CKAN:img]][CKAN:url]
 <!--- statics -->
 [artwhaley]: https://forum.kerbalspaceprogram.com/index.php?/profile/118388-*/ "artwhaley"
 [zer0Kerbal]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/ "zer0Kerbal"
-
-<!--- misc logos -->
-[IMG:flg:0]: https://raw.githubusercontent.com/zer0Kerbal/AxialAerospaceLtd/master/img/AxialAerospaceFlag.png "Axial Aerospace"
 
 #### Connect with me
 
