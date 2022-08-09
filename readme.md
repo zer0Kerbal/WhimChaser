@@ -124,6 +124,7 @@ or [![CKAN][CKAN:img]][CKAN:url]
 ### Dependencies
 
 * [Kerbal Space Program][KSP:url] [![Kerbal Space Program][KSP:shd]][KSP:url] [^2]
+* [AxialAerospace Ltd (AA/L)][AAL]
 
 ### Suggests
 
@@ -277,6 +278,7 @@ or [![CKAN][CKAN:img]][CKAN:url]
 [DREAM]: https://forum.kerbalspaceprogram.com/index.php?/topic/207306-*/ "Dreamer (DREAM)"
 [LTEK]: https://forum.kerbalspaceprogram.com/index.php?/topic/207923-*/ "LanderTek (LTK)"
 [WHIM]: https://forum.kerbalspaceprogram.com/index.php?/topic/204900-*/ "WhimChaser (WHIM)"
+[AAL]: https://github.com/zer0Kerbal/AxialAerospaceLtd "AxialAerospace Ltd. (AA/L)"
 
 [far]: https://forum.kerbalspaceprogram.com/index.php?/topic/179445-*/ "FAR"
 [mm]: https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/ "Module Manager"
