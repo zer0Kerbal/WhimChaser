@@ -2,13 +2,80 @@
   
 | modName    | WhimChaser (WHIM) by Axial Aerospace                              |
 | ---------- | ----------------------------------------------------------------- |
-| license    | Expat-MIT                                                         |
+| license    | GPL-2.0                                                           |
 | author     | artwhaley and zer0Kerbal                                          |
 | forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/204900-*/) |
 | github     | (https://github.com/zer0Kerbal/zer0Kerbal/WhimChaser)             |
 | curseforge | (https://www.curseforge.com/kerbal/ksp-mods/WhimChaser)           |
 | spacedock  | (https://spacedock.info/mod/3071)                                 |
 | ckan       | WhimChaser                                                        |
+
+## Version 0.5.99.1-prerelease `<On a Wing and a Prayer>` edition
+
+* 08 Aug 2022
+* Released for Kerbal Space Program 1.12.3
+
+### Parts
+
+<whimChaser.cfg>
+* 'maxTemp' set to 1500, was 3400
+* 'deflectionLiftCoeff' moved into [ModuleLiftingSurface]
+* 'dragCoeff' moved into [ModuleControlSurface]
+* [ModuleReactionWheel]
+  * `PitchTorque` = 10 {same}
+  * `YawTorque` =  10 {same}
+  * `RollTorque` =  5
+  * `torqueResponseSpeed` = 10 {commented out}
+  * [ElectricCharge] = 0.25 {down from 0.3}
+* [ModuleResourceConverter] from 0.75 to 1.0 `ElectricCharge` consuming 0.001 instead of 0.00075 `MonoPropellant`
+* [ModuleDataTransmitter] stats now equal 16S DIRECT; except still RELAY instead of Direct
+* [ModuleRCSFX]
+  - `runningEffectName` now {running} was {runningRCS}
+* `EngineType` = LiquidFuel instead of {LFO}
+* 
+
+[en-us.cfg]
+* #WHIM-CP_15Neg = Nose down 15°
+* #WHIM-CP_15Up = Nose up 15°
+
+KSP_VERSION_MAX
+
+* fix <OnDemandFuelCells.cfg> v1.0.1.0
+    * misplaced @ was O@x
+
+seems high : ❓ ❔ 
+    - [breakingForce = 50]
+    - [breakingTorque = 50] seems high ???
+    - [crashTolerance = 12]
+
+### Update License
+
+* Updated License: GPL-2.0
+  * was: Expat-MIT
+* closes # - Updated License
+
+### Localization
+
+* Create
+  * [WhimChaser.cfg] v1.0.0.0
+    * adds localized tags to parts
+  * Localization/
+    * <en-us.cfg>
+    * [readme.md] v2.1.2.0
+    * [quickstart.md] v1.0.1.1
+* Updates # - Localization Master
+* Closes # - Localization - English <en-us.cfg>
+
+### Add localized tags to parts
+
+* [WhimChaser.cfg] v1.0.0.0
+  * adds localized tags to parts
+
+### Status 0.5.99.1
+
+* Issues
+
+---
 
 ## Version 0.5.99.0-adoption `<Thank you artwhaley>` edition
 
