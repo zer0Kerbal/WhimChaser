@@ -16,6 +16,12 @@
 
 * docking ports 'control from here' feature working
 
+### Status 0.5.5.0
+
+* Issues
+  * closes #50- 0.5.0.0-release
+  * closes #41 - Previous Archival Releases
+
 ---
 
 ## Version 0.5.0.0-release - `<Service Module>` edition
@@ -33,6 +39,12 @@
     * integrated junior compatible docking ports
     * give additional
       * fuel, battery, and monopropellant
+
+### Status 0.5.0.0
+
+* Issues
+  * closes #49- 0.5.0.0-release
+  * updates #41 - Previous Archival Releases
 
 ---
 
