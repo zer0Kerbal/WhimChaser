@@ -154,7 +154,7 @@ or [![CKAN][CKAN:img]][CKAN:url]
   * [Module Manager /L][mml]
 * [GPO (Goo Pumps & Oils') Speed Pump (GPO)][GPO]
 * [On Demand Fuel Cells (ODFC)][ODFC]
-* [NEAR-FAR][far]
+* [FerramAerospaceResearch NEAR-FAR][far]
 * [RemoteTech (RT)][rt]
 
 ### Tags
