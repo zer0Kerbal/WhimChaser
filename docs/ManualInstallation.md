@@ -6,7 +6,7 @@ tags: installation,directions,page,kerbal,ksp,zer0Kerbal,zedK
 ---
 
 <!-- ManualInstallation.md v1.1.8.1
-WhimChaser by Axial Aerospace (WHIM)
+WhimChaser (WHIM)
 created: 01 Oct 2019
 updated: 29 Jul 2022 -->
 
