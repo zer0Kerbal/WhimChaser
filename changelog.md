@@ -12,8 +12,10 @@
 
 ## Version 0.5.99.1-prerelease `<On a Wing and a Prayer>` edition
 
-* 08 Aug 2022
-* Released for Kerbal Space Program 1.12.3
+* Released
+  * 29 Jan 2023
+  * for Kerbal Space Program 1.12.5
+  * by [zer0Kerbal](https://github.com/zer0Kerbal)
 
 ### Parts
 
@@ -63,17 +65,36 @@ seems high : ❓ ❔
     * <en-us.cfg>
     * [readme.md] v2.1.2.0
     * [quickstart.md] v1.0.1.1
-* Updates # - Localization Master
-* Closes # - Localization - English <en-us.cfg>
+* updates #23 - Localization Master
+* closes #24 - Localization - English <en-us.cfg>
 
 ### Add localized tags to parts
 
 * [WhimChaser.cfg] v1.0.0.0
   * adds localized tags to parts
 
+
+  * closes #7 - IVA interior
+  * closes #58 - Update License
+  * closes #57 - Add localized tags to parts
+  * closes #55 - Localization
+  * closes #54 - docs/
+  * closes #53 - Asset Updates
+  * closes #40 - Update AA WhimChaser (end beta - new release)
+  * closes #11 - **RemoteTech**
+  * closes #10 - **kOS**
+  * closes #17 - part.cfg bugs
+  * closes #14 - Missing IVA
+  * closes #13 - Lights not working
+  * closes #12 - Cargo
+
 ### Status 0.5.99.1
 
 * Issues
+  * closes #59 - WhimChaser (WHIM) 0.5.99.1-prerelease `<On a Wing and a Prayer>` edition
+  * closes #60 - 0.5.99.1 Verify Legal Mumbo Jumbo
+  * closes #61 - 0.5.99.1 Update Documentation
+  * closes #62 - 0.5.99.1 Update Social Media
 
 ---
 
