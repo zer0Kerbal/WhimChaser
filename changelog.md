@@ -17,6 +17,21 @@
   * for Kerbal Space Program 1.12.5
   * by [zer0Kerbal](https://github.com/zer0Kerbal)
 
+### Summary
+
+* lots of linting and updates
+* IVA
+  * now uses mk2CockpitStandardInternals instead of mk1CockpitInternal (2 crew vs 1)
+* Added TACLS compatibility patch for 2 crew
+  * <TACLS.cfg> v1.0.0.0
+  * 3 days for both pod and smaller service module
+  * 7 days for service module
+KerbalInventorySystem.cfg v1.0.0.0
+<Ghostparts.cfg> v1.3.0.0 will be haunting until full release, then shut off but still included.
+OnDemandFuelCells.cfg v1.1.0.0
+* updated OnDemandFuelCells, and moved to service modules from pod
+
+
 ### Parts
 
 <whimChaser.cfg>
@@ -72,7 +87,6 @@ seems high : ❓ ❔
 
 * [WhimChaser.cfg] v1.0.0.0
   * adds localized tags to parts
-
 
   * closes #7 - IVA interior
   * closes #58 - Update License
