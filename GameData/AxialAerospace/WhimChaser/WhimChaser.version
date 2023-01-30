@@ -1,5 +1,5 @@
 {
-    "NAME"           : "WhimChaser (WHIM) by artwhaley",
+    "NAME"           : "WhimChaser (WHIM)",
     "URL"            : "https://raw.githubusercontent.com/zer0Kerbal/WhimChaser/master/WhimChaser.version",
     "DOWNLOAD"       : "https://github.com/zer0Kerbal/WhimChaser/releases/latest",
     "CHANGE_LOG_URL" : "https://raw.githubusercontent.com/zer0Kerbal/WhimChaser/master/changelog.md",
@@ -14,19 +14,25 @@
         "MAJOR" : 0,
         "MINOR" : 5,
         "PATCH" : 99,
-        "BUILD" : 1
+        "BUILD" : 0
     },
     "KSP_VERSION" :
     {
         "MAJOR" : 1,
         "MINOR" : 12,
-        "PATCH" : 3
+        "PATCH" : 2
     },
     "KSP_VERSION_MIN" :
     {
         "MAJOR" : 1,
         "MINOR" : 3,
         "PATCH" : 1
+    },
+    "KSP_VERSION_MAX" :
+    {
+        "MAJOR" : 1,
+        "MINOR" : 3,
+        "PATCH" : 9999
     },
     "INSTALL_LOC" :
     {

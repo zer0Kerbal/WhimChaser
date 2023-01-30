@@ -7,7 +7,7 @@ tags: notices,legal,mumbo,jumbo,page,kerbal,ksp,zer0Kerbal,zedK
 
 <!--
 Notices.md v1.0.1.0
-WhimChaser by Axial Aerospace (WHIM)
+WhimChaser (WHIM)
 created: 13 Apr 2022
 updated: 15 May 2022
 
@@ -16,7 +16,7 @@ based upon work by LisiasT -->
 <script src="https://kit.fontawesome.com/0ea5493613.js" crossorigin="anonymous"></script>
 <i class="fa-solid fa-file-contract fa-beat-fade fa-3x" style="--fa-beat-fade-opacity: 0.1; --fa-beat-fade-scale: 1.25;color: #6495ED" ></i>
 
-# WhimChaser by Axial Aerospace (WHIM)
+# WhimChaser (WHIM)
 
 [Home](./index.md)
 
@@ -47,6 +47,6 @@ based upon work by LisiasT -->
 
 Other trademarks and registered trademarks are the property of the respective trademark holders.
 
-© 2011-2022 zer0Kerbal™
+© 2011-2023 zer0Kerbal™
 
 <!-- this file CC BY-ND 4.0 by zer0Kerbal -->
