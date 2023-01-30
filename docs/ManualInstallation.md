@@ -12,7 +12,7 @@ updated: 29 Jul 2022 -->
 
 <!-- based upon work by Lisias -->
 
-# WhimChaser by Axial Aerospace (WHIM)
+# WhimChaser (WHIM) by Axial Aerospace
 
 [Home](./index.md)
 
@@ -52,6 +52,16 @@ To install, place the `GameData` folder inside your Kerbal Space Program folder:
 <KSP_ROOT>
   + [GameData]
     + [AxialAerospace]
+    + [AxialAeroSpace]
+      + [AxialAeroSpaceLtd]
+        + [Agencies]
+          ...
+        + [Config]
+          ...
+        + [Flags]
+          ...
+        + [Localization]
+          ...
         ...
       + [WhimChaser]
         + [Compatibility]
@@ -67,7 +77,7 @@ To install, place the `GameData` folder inside your Kerbal Space Program folder:
         * #.#.#.#.htm
         * Attributions.htm
         * changelog.md
-        * Expat-MIT.txt
+        * GPL-2.0.txt
           ManualInstallation.htm
         * readme.htm
         * WhimChaser.version
