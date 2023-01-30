@@ -20,7 +20,7 @@
     {
         "MAJOR" : 1,
         "MINOR" : 12,
-        "PATCH" : 3
+        "PATCH" : 5
     },
     "KSP_VERSION_MIN" :
     {
@@ -32,5 +32,10 @@
     {
         "NAME" :          "WhimChaser",
         "DIRECTORY" :     "AxialAerospace/WhimChaser"
-    }
+    },
+	"INSTALL_LOC" :
+	{
+		"NAME"      : "Ships",
+		"DIRECTORY" : "Ships"
+	}
 }
