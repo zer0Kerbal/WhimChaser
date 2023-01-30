@@ -1,5 +1,5 @@
 <!-- readme.md v1.6.9.3
-WhimChaser by Axial Aerospace (WHIM)
+WhimChaser (WHIM)
 created: 17 Jul 2017
 updated: 31 Jul 2022 -->
 
@@ -11,10 +11,11 @@ updated: 31 Jul 2022 -->
 
 
 
-# WhimChaser by Axial Aerospace (WHIM)
+# WhimChaser (WHIM)
 
 Provides a fun to fly, efficient vertical launch/glider return vessel that can handle rescue missions as well as providing a low-cost crew service vessel (CSV) for Kerbal Space Program.
 
+Fun to fly efficient vertical launch/glider return vessel that can handle rescue missions as well as providing a low-cost crew service vessel (CSV). Inspired by Dream Chaser and Pteron, and gives a flight profile similar to Dream Chaser and the Space Shuttle, so it's something familiar and educationally valid. For those times when you want to fly... not build. Towards that end this single part has built in resources, aerodynamic control surfaces, 6-way RCS and Engines!
 
 
 ## By [`zer0Kerbal`][zer0Kerbal], originally by, originally by [`@artwhaley`][artwhaley]
