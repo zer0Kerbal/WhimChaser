@@ -11,13 +11,13 @@ repository:
   name: WhimChaser
 
   # A short description of the repository that will show up on GitHub
-  description: Fun to fly efficient vertical launch/glider return vessel that can handle rescue missions as well as providing a low-cost crew service vessel (CSV). Inspired by Dream Chaser and Pteron, and gives a flight profile similar to Dream Chaser and the Space Shuttle, so it's something familiar and educationally valid. For those times when you want to fly... not build. Towards that end this single part has built in resources, aerodynamic control surfaces, 6-way RCS and Engines! For Kerbal Space Program.
+  description: Fun-to-fly efficient vertical launch/glider return vessel that can handle rescue missions by providing a low-cost crew service vessel (CSV). For those times when you want to fly... not build. This single part has built in resources, aerodynamic control surfaces, 6-way RCS and Engines! For Kerbal Space Program.
 
   # A URL with more information about the repository
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/204900-*/
 
   # A comma-separated list of topics to set on the repository
-  topics: axialaerospace,whimchaser,crewed,mod,kerbal,kerbalspaceprogram,ksp,ksp-mods,ksp-parts,kerbal-space,kerbal-space-program,kerbal-mods,artwhaley,zedk
+  topics: axialaerospace,whimchaser,crewed,kerbal,kerbalspaceprogram,ksp,ksp-mods,ksp-parts,kerbal-space,kerbal-space-program,kerbal-mods,artwhaley,zedk,contributions-welcome,hacktoberfest,mod
 
 # Labels: define labels for Issues and Pull Requests
 labels:
@@ -229,32 +229,40 @@ labels:
     color: e6e6e6
     description: No action will be taken at this time
 
+  - name: "hacktoberfest"
+    color: ff9900
+    description: flag for entry into hacktoberfest
+
+  - name: "hacktoberfest-accepted"
+    color: ff9900
+    description: flag for stating PR is accepted as appropriate for hacktoberfest
+
+  - name: "good-first-issue"
+    color: AEF923
+    description: flag for inclusion into good-first-issues listing
+
+  - name: "contributions-welcome"
+    color: AEF923
+    description: flag for inclusion into contributions-welcome listing
+
+  - name: "beginner-friendly"
+    color: AEF923
+    description: flag for inclusion into beginner-friendly listing
+
+  - name: "invalid"
+    color: FFFF00
+    description: flagged as invalid
+
+  - name: "spam"
+    color: EB212E
+    description: spam flag
+
 # Milestones: define milestones for Issues and Pull Requests
 milestones:
-  - title: 0.5.5.0-release
-    description: progress toward archival 0.5.5.0-release by original author
-    state: open
-
-  - title: 0.5.99.1-prerelease
-    description: progress toward 0.5.99.1-prerelease
-    state: open
-
-  - title: 0.6.0.0-release
-    description: progress toward 0.6.0.0-release
-    state: open
-
-  - title: 0.5.99.0-adoption
-    description: progress toward 0.5.99.0-adoption
-    state: closed
-
   - title: Localization - Master
     description: progress toward total localization
     state: open
 
-  - title: Localization - Parts
-    description: progress toward Parts localization (only for parts, patches, agencies - etc)
-    state: open
-
-  - title: Localization - English <en-us.cfg>
-    description: progress toward English <en-us.cfg> localization
+  - title: 0.5.99.1-prerelease
+    description: progress toward 0.5.99.1-prerelease
     state: open
