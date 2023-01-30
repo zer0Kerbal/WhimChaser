@@ -59,7 +59,7 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 * See our [Parts Catalog][MOD:parts] for part pictures
 * For more images, see our [Marketing Slicks][MOD:markt]
 * Discussions and news on this mod: See [Discussions][MOD:discu] or [KSP Forums][MOD:forum]
-* Changelog Summary for more details of changes : See [ChangeLog][MOD:chlog]
+* Changelog Summary for more details of changes: See [ChangeLog][MOD:chlog]
 * Known Issues for more details of feature requests and known issues : See [Known Issues][MOD:issue]
 * GitHub Pages : See [Pages][MOD:pages]
 
@@ -166,6 +166,11 @@ or [![CKAN][CKAN:img]][CKAN:url]
     <p><img src="https://i.postimg.cc/vHP6zmrw/image.png" alt="How to get support"></p></a>
   <p style="color: #000000;">Be Kind: Lithobrake, not jakebrake! Keep your Module Manager up to date</p>
 </div>
+
+### Credits and Special Thanks
+
+* [artwhaldey][artwhaley] for creating this glorious addon!
+* see [Attribution.md][MOD:attr] for more comprehensive list
 
 ### Legal Mumbo Jumbo (License *provenance*)
 
@@ -278,7 +283,7 @@ or [![CKAN][CKAN:img]][CKAN:url]
 [DREAM]: https://forum.kerbalspaceprogram.com/index.php?/topic/207306-*/ "Dreamer (DREAM)"
 [LTEK]: https://forum.kerbalspaceprogram.com/index.php?/topic/207923-*/ "LanderTek (LTK)"
 [WHIM]: https://forum.kerbalspaceprogram.com/index.php?/topic/204900-*/ "WhimChaser (WHIM)"
-[AAL]: https://github.com/zer0Kerbal/AxialAerospaceLtd "AxialAerospace Ltd. (AA/L)"
+[AAL]: https://forum.kerbalspaceprogram.com/index.php?/topic/209301-*/ "AxialAerospace Ltd. (AA/L)"
 
 [far]: https://forum.kerbalspaceprogram.com/index.php?/topic/179445-*/ "FAR"
 [mm]: https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/ "Module Manager"
@@ -321,7 +326,7 @@ or [![CKAN][CKAN:img]][CKAN:url]
 [reddit]: https://www.reddit.com/user/zer0Kerbal
 [twitch]: https://www.twitch.tv/zer0kerbal
 [twitter]: https://twitter.com/zer0Kerbal
-[youtube]: https://www.youtube.com/channel/UCp9c8IaK4Gjgfj3O9QxrbDw
+[youtube]: https://www.youtube.com/@zer0Kerbal
 
 <!--- statics -->
 [artwhaley]: https://forum.kerbalspaceprogram.com/index.php?/profile/118388-*/ "artwhaley"
