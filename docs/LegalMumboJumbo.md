@@ -7,7 +7,7 @@ tags: legal,mumbo,jumbo,page,kerbal,ksp,zer0Kerbal,zedK
 
 <!--
 LegalMumboJumbo.md v1.0.5.1
-WhimChaser by Axial Aerospace (WHIM)
+WhimChaser (WHIM) by Axial Aerospace
 created: 01 Feb 2022
 updated: 15 May 2022
 -->
@@ -15,7 +15,7 @@ updated: 15 May 2022
 <script src="https://kit.fontawesome.com/0ea5493613.js" crossorigin="anonymous"></script>
 <i class="fa-solid fa-file-contract fa-beat-fade fa-3x" style="--fa-beat-fade-opacity: 0.1; --fa-beat-fade-scale: 1.25;color: #6495ED" ></i>
 
-# WhimChaser by Axial Aerospace (WHIM)
+# WhimChaser (WHIM) by Axial Aerospace
 
 [Home](./index.md)
 
@@ -23,7 +23,7 @@ updated: 15 May 2022
 
 * Table of Contents
   * [License](#License)
-  * [Original License](#Original-License)
+  * [Original License](#Previous-License)
   * [Forum Post #1](#Forum-I)
   * [Forum Post #2](#Forum-II)
   * [Forum Post #3](#Forum-III)
@@ -35,7 +35,7 @@ updated: 15 May 2022
 [License](./LegalMumboJumbo/License.md)
 [top](#Legal-Mumbo-Jumbo)
 
-### License
+### Previous License
 
 [Original License](./LegalMumboJumbo/OrigLicense.md)
 [top](#Legal-Mumbo-Jumbo)
