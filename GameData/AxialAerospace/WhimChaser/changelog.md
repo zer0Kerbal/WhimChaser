@@ -22,85 +22,92 @@
 * lots of linting and updates
 * IVA
   * now uses mk2CockpitStandardInternals instead of mk1CockpitInternal (2 crew vs 1)
-* Added TACLS compatibility patch for 2 crew
+* Compatibility
+  * Added
+    * <KerbNet.cfg> v1.0.0.0
+    * <KerbalInventorySystem.cfg> v1.0.0.0
+    * <kOS.cfg> v1.0.0.0
+    * <RemoteTech.cfg> v1.0.0.0
+    * <TACLS.cfg> v1.0.0.0
+      * 2 crew
+        * 3 days for both pod and smaller service module
+        * 7 days for service module
+        * removes some resources from serviced modules to make space for supplies
+    * <Ghostparts.cfg> v1.3.0.0
+      * will be haunting until full release, then shut off but still included.
+  * Updated
+    * <OnDemandFuelCells.cfg> v1.1.0.0
+
+### Changes 0.5.99.1
+
+### Parts 0.5.99.1
+
+* <whimChaser.cfg>
+  * 'maxTemp' set to 1500, was 3400
+  * 'deflectionLiftCoeff' moved into [ModuleLiftingSurface]
+  * 'dragCoeff' moved into [ModuleControlSurface]
+  * [ModuleReactionWheel]
+    * `PitchTorque` = 10 {same}
+    * `YawTorque` =  10 {same}
+    * `RollTorque` =  5
+    * `torqueResponseSpeed` = 10 {commented out}
+    * [ElectricCharge] = 0.25 {down from 0.3}
+  * [ModuleResourceConverter] from 0.75 to 1.0 `ElectricCharge` consuming 0.001 instead of 0.00075 `MonoPropellant`
+  * [ModuleDataTransmitter] stats now equal 16S DIRECT; except still RELAY instead of Direct
+  * [ModuleRCSFX]
+    * `runningEffectName` now {running} was {runningRCS}
+  * `EngineType` = LiquidFuel instead of {LFO}
+  * IVA
+    * now uses mk2CockpitStandardInternals instead of mk1CockpitInternal (2 crew vs 1)
+* closes #7 - IVA interior
+* closes #14 - Missing IVA
+* closes #17 - part.cfg bugs
+
+### Assets  0.5.99.1
+
+* update textures to DXT5
+* Model has no lights, so cannot add to part.cfg
+* closes #53 - Asset Updates
+* closes #13 - Lights not working
+
+### Compatibility 0.5.99.1
+
+* Add
+  * <KerbalInventorySystem.cfg> v1.0.0.0
+  * <KerbNet.cfg> v1.0.0.0
+  * <kOS.cfg> v1.0.0.0
+  * <RemoteTech.cfg> v1.0.0.0
   * <TACLS.cfg> v1.0.0.0
-  * 3 days for both pod and smaller service module
-  * 7 days for service module
-KerbalInventorySystem.cfg v1.0.0.0
-<Ghostparts.cfg> v1.3.0.0 will be haunting until full release, then shut off but still included.
-OnDemandFuelCells.cfg v1.1.0.0
-* updated OnDemandFuelCells, and moved to service modules from pod
+* Fix <OnDemandFuelCells.cfg> v1.0.1.0
+  * misplaced @ was O@x
+* closes #10 - **kOS**
+* closes #11 - **RemoteTech**
+* closes #12 - Cargo
 
-
-### Parts
-
-<whimChaser.cfg>
-* 'maxTemp' set to 1500, was 3400
-* 'deflectionLiftCoeff' moved into [ModuleLiftingSurface]
-* 'dragCoeff' moved into [ModuleControlSurface]
-* [ModuleReactionWheel]
-  * `PitchTorque` = 10 {same}
-  * `YawTorque` =  10 {same}
-  * `RollTorque` =  5
-  * `torqueResponseSpeed` = 10 {commented out}
-  * [ElectricCharge] = 0.25 {down from 0.3}
-* [ModuleResourceConverter] from 0.75 to 1.0 `ElectricCharge` consuming 0.001 instead of 0.00075 `MonoPropellant`
-* [ModuleDataTransmitter] stats now equal 16S DIRECT; except still RELAY instead of Direct
-* [ModuleRCSFX]
-  - `runningEffectName` now {running} was {runningRCS}
-* `EngineType` = LiquidFuel instead of {LFO}
-* 
-
-[en-us.cfg]
-* #WHIM-CP_15Neg = Nose down 15°
-* #WHIM-CP_15Up = Nose up 15°
-
-KSP_VERSION_MAX
-
-* fix <OnDemandFuelCells.cfg> v1.0.1.0
-    * misplaced @ was O@x
-
-seems high : ❓ ❔ 
-    - [breakingForce = 50]
-    - [breakingTorque = 50] seems high ???
-    - [crashTolerance = 12]
-
-### Update License
+### License 0.5.99.1
 
 * Updated License: GPL-2.0
   * was: Expat-MIT
-* closes # - Updated License
+* closes #58 - Update License
 
-### Localization
+### Localization 0.5.99.1
 
 * Create
   * [WhimChaser.cfg] v1.0.0.0
     * adds localized tags to parts
   * Localization/
-    * <en-us.cfg>
+    * <en-us.cfg> v1.2.0.0
     * [readme.md] v2.1.2.0
     * [quickstart.md] v1.0.1.1
 * updates #23 - Localization Master
 * closes #24 - Localization - English <en-us.cfg>
+* closes #57 - Add localized tags to parts
+* closes #55 - Localization
 
-### Add localized tags to parts
+### Documentation  0.5.99.1
 
-* [WhimChaser.cfg] v1.0.0.0
-  * adds localized tags to parts
-
-  * closes #7 - IVA interior
-  * closes #58 - Update License
-  * closes #57 - Add localized tags to parts
-  * closes #55 - Localization
-  * closes #54 - docs/
-  * closes #53 - Asset Updates
-  * closes #40 - Update AA WhimChaser (end beta - new release)
-  * closes #11 - **RemoteTech**
-  * closes #10 - **kOS**
-  * closes #17 - part.cfg bugs
-  * closes #14 - Missing IVA
-  * closes #13 - Lights not working
-  * closes #12 - Cargo
+* Update all documentation to current standards
+* closes #54 - docs/
 
 ### Status 0.5.99.1
 
@@ -109,6 +116,7 @@ seems high : ❓ ❔
   * closes #60 - 0.5.99.1 Verify Legal Mumbo Jumbo
   * closes #61 - 0.5.99.1 Update Documentation
   * closes #62 - 0.5.99.1 Update Social Media
+  * closes #40 - Update AA WhimChaser (end beta - new release)
 
 ---
 
