@@ -4,7 +4,6 @@ title: Parts Catalog
 description: Bill, what are going to do tonight? Why Jeb, the same thing we do every night, Take over the world!
 tags: parts,invoice,catalog,parts-list,packing,page,kerbal,ksp,zer0Kerbal,zedK
 ---
-
 <!-- PartsCatalog.md v1.1.4.0
 WhimChaser (WHIM)
 created: 01 Feb 2022
@@ -17,25 +16,21 @@ updated: 15 May 2022 -->
 
 [Home](./index.md)
 
-Provides a fun to fly efficient  vertical launch/glider return vessel that can handle rescue missions as well as providing a low-cost crew service vessel (CSV) for Kerbal Space Program.
+Provides a fun to fly efficient vertical launch/glider return vessel that can handle rescue missions as well as providing a low-cost crew service vessel (CSV) for Kerbal Space Program.
 
 ## Parts Catalog
 
 This add-on supplies three (3) parts
 
----
+* WhimChaser Pod
 
-* WhimChaser
-
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/MOD-NAME/master/GameData/MOD-NAME/Parts/%40thumbs/ElMallet_icon.png" alt="Mallet" width="25%" height="25%" />
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/WhimChaser/master/docs/thumbs/whim-pod_icon.png" alt="WhimChaser Pod" width="25%" height="25%" />
 
 * Service Module
-* Service Module
+  * long, short
 
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/MOD-NAME/master/GameData/MOD-NAME/Parts/%40thumbs/ELSurveyStake_icon.png" alt="SurveyStake" width="25%" height="25%" />
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/WhimChaser/master/docs/thumbs/whim-serv-long_icon" alt="Service Module, Long" width="25%" height="25%" /> <img src="https://raw.githubusercontent.com/zer0Kerbal/WhimChaser/master/docs/thumbs/whim-serv-short_icon" alt="Service Module, Short" width="25%" height="25%" />
 
----
-
-[top](#Parts-Catalog)
+[top](#parts-catalog)
 
 <!-- this file CC BY-ND 4.0 by zer0Kerbal -->
