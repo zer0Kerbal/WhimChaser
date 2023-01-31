@@ -29,9 +29,7 @@ This add-on supplies three (3) parts
 * Service Module
   * long, short
 
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/WhimChaser/master/docs/thumbs/whim-serv-long_icon.png" alt="Service Module, Long" width="25%" height="25%" />
-  
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/WhimChaser/master/docs/thumbs/whim-serv-short_icon.png" alt="Service Module, Short" width="25%" height="25%" />
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/WhimChaser/master/docs/thumbs/whim-serv-long_icon.png" alt="Service Module, Long" width="25%" height="25%" /> <img src="https://raw.githubusercontent.com/zer0Kerbal/WhimChaser/master/docs/thumbs/whim-serv-short_icon.png" alt="Service Module, Short" width="25%" height="25%" />
 
 [top](#parts-catalog)
 
