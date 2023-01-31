@@ -2,13 +2,123 @@
   
 | modName    | WhimChaser (WHIM) by Axial Aerospace                              |
 | ---------- | ----------------------------------------------------------------- |
-| license    | Expat-MIT                                                         |
+| license    | GPL-2.0                                                           |
 | author     | artwhaley and zer0Kerbal                                          |
 | forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/204900-*/) |
 | github     | (https://github.com/zer0Kerbal/zer0Kerbal/WhimChaser)             |
 | curseforge | (https://www.curseforge.com/kerbal/ksp-mods/WhimChaser)           |
 | spacedock  | (https://spacedock.info/mod/3071)                                 |
 | ckan       | WhimChaser                                                        |
+
+## Version 0.5.99.1-prerelease `<On a Wing and a Prayer>` edition
+
+* Released
+  * 29 Jan 2023
+  * for Kerbal Space Program 1.12.5
+  * by [zer0Kerbal](https://github.com/zer0Kerbal)
+
+### Summary
+
+* lots of linting and updates
+* IVA
+  * now uses mk2CockpitStandardInternals instead of mk1CockpitInternal (2 crew vs 1)
+* Compatibility
+  * Added
+    * <KerbNet.cfg> v1.0.0.0
+    * <KerbalInventorySystem.cfg> v1.0.0.0
+    * <kOS.cfg> v1.0.0.0
+    * <RemoteTech.cfg> v1.0.0.0
+    * <TACLS.cfg> v1.0.0.0
+      * 2 crew
+        * 3 days for both pod and smaller service module
+        * 7 days for service module
+        * removes some resources from serviced modules to make space for supplies
+    * <Ghostparts.cfg> v1.3.0.0
+      * will be haunting until full release, then shut off but still included.
+  * Updated
+    * <OnDemandFuelCells.cfg> v1.1.0.0
+
+### Changes 0.5.99.1
+
+### Parts 0.5.99.1
+
+* <whimChaser.cfg>
+  * 'maxTemp' set to 1500, was 3400
+  * 'deflectionLiftCoeff' moved into [ModuleLiftingSurface]
+  * 'dragCoeff' moved into [ModuleControlSurface]
+  * [ModuleReactionWheel]
+    * `PitchTorque` = 10 {same}
+    * `YawTorque` =  10 {same}
+    * `RollTorque` =  5
+    * `torqueResponseSpeed` = 10 {commented out}
+    * [ElectricCharge] = 0.25 {down from 0.3}
+  * [ModuleResourceConverter] from 0.75 to 1.0 `ElectricCharge` consuming 0.001 instead of 0.00075 `MonoPropellant`
+  * [ModuleDataTransmitter] stats now equal 16S DIRECT; except still RELAY instead of Direct
+  * [ModuleRCSFX]
+    * `runningEffectName` now {running} was {runningRCS}
+  * `EngineType` = LiquidFuel instead of {LFO}
+  * IVA
+    * now uses mk2CockpitStandardInternals instead of mk1CockpitInternal (2 crew vs 1)
+* closes #7 - IVA interior
+* closes #14 - Missing IVA
+* closes #17 - part.cfg bugs
+
+### Assets  0.5.99.1
+
+* update textures to DXT5
+* Model has no lights, so cannot add to part.cfg
+* closes #53 - Asset Updates
+* closes #13 - Lights not working
+
+### Compatibility 0.5.99.1
+
+* Add
+  * <KerbalInventorySystem.cfg> v1.0.0.0
+  * <KerbNet.cfg> v1.0.0.0
+  * <kOS.cfg> v1.0.0.0
+  * <RemoteTech.cfg> v1.0.0.0
+  * <TACLS.cfg> v1.0.0.0
+* Fix <OnDemandFuelCells.cfg> v1.0.1.0
+  * misplaced @ was O@x
+* closes #10 - **kOS**
+* closes #11 - **RemoteTech**
+* closes #12 - Cargo
+
+### License 0.5.99.1
+
+* Updated License: GPL-2.0
+  * was: Expat-MIT
+* closes #58 - Update License
+
+### Localization 0.5.99.1
+
+* Create
+  * [WhimChaser.cfg] v1.0.0.0
+    * adds localized tags to parts
+  * Localization/
+    * <en-us.cfg> v1.2.0.0
+    * [readme.md] v2.1.2.0
+    * [quickstart.md] v1.0.1.1
+* updates #23 - Localization Master
+* closes #24 - Localization - English <en-us.cfg>
+* closes #57 - Add localized tags to parts
+* closes #55 - Localization
+
+### Documentation  0.5.99.1
+
+* Update all documentation to current standards
+* closes #54 - docs/
+
+### Status 0.5.99.1
+
+* Issues
+  * closes #59 - WhimChaser (WHIM) 0.5.99.1-prerelease `<On a Wing and a Prayer>` edition
+  * closes #60 - 0.5.99.1 Verify Legal Mumbo Jumbo
+  * closes #61 - 0.5.99.1 Update Documentation
+  * closes #62 - 0.5.99.1 Update Social Media
+  * closes #40 - Update AA WhimChaser (end beta - new release)
+
+---
 
 ## Version 0.5.99.0-adoption `<Thank you artwhaley>` edition
 

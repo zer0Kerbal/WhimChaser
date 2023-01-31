@@ -141,6 +141,7 @@ I take no part, nor am I interested in maintaining the [CKAN][ckan:url] metadata
 * [Solar Science (SOL)][SOL]
 * [Stack Inline Lights - Patches (SILP)][SILP]
 * [Stack Inline Lights (SIL)][SIL]
+* [Tweakscale (twk)][twk]
 
 ### Supports
 
@@ -150,7 +151,11 @@ I take no part, nor am I interested in maintaining the [CKAN][ckan:url] metadata
   * [Module Manager /L][mml]
   * [Module Manager][mm]
 * [Ferram Aerospace Research (near-far)][far]
+* [Kerbal Inventory System (KIS)][kis]
+* [Kerbal Operating System (kOS)][kos]
 * [RemoteTech (rt)][rt]
+* [RemoteTech (rt)][rt]
+* [TAC Life Support (TAC-LS)][tacls]
 
 ### Tags
 
@@ -283,9 +288,12 @@ I take no part, nor am I interested in maintaining the [CKAN][ckan:url] metadata
 [WHIM]: https://forum.kerbalspaceprogram.com/index.php?/topic/204900-*/ "WhimChaser (WHIM)"
 
 [far]: https://forum.kerbalspaceprogram.com/index.php?/topic/179445-*/ "FAR"
+[kis]: http://forum.kerbalspaceprogram.com/index.php?/topic/149848-*/ "Kerbal Inventory System (KIS)"
+[kos]: http://ksp-kos.github.io/KOS_DOC/ "Kerbal Operating System (kOS)"
 [mm]: https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/ "Module Manager"
 [mml]: https://github.com/net-lisias-ksp/ModuleManager "Module Manager /L"
-[rt]: https://remotetechnologiesgroup.github.io/RemoteTech/ "RemoteTech"
+[rt]: http://remotetechnologiesgroup.github.io/RemoteTech/ "RemoteTech (rt)"
+[tacls]: https://github.com/KSP-RO/TacLifeSupport/wiki "TAC Life Support (TAC-LS)"
 [twk]: https://forum.kerbalspaceprogram.com/index.php?/topic/179030-*/ "TweakScale"
 
 <!-- financial support -->
